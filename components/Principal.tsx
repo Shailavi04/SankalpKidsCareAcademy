@@ -13,7 +13,7 @@ export default function LeadershipMessages() {
     },
     {
       role: "Message from Principal",
-      name: "Dr. Meera Patel",
+      name: "Amrita Singh",
       title: "Principal, M.Ed., Ph.D. in Education",
       message: "Every child deserves a champion — an adult who will never give up on them. We nurture curiosity and build character.",
       bgColor: "bg-indigo-900", 

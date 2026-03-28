@@ -7,9 +7,9 @@ export default function News() {
     {
       category: "Event",
       date: "Mar 25, 2025",
-      title: "Annual Sports Day 2025",
+      title: "Annual Day 2025",
       desc: "Join us for an exciting day of athletic competitions, team sports, and fun activities for all students.",
-      image: "https://images.unsplash.com/photo-1566933293069-b55c7f326dd4?q=80&w=2070",
+      image: "/images/gallery2.jpeg",
       badgeColor: "bg-yellow-500"
     },
     {
@@ -17,7 +17,7 @@ export default function News() {
       date: "Apr 5, 2025",
       title: "Admissions Open 2025-26",
       desc: "Enroll your child for the upcoming academic year. Limited seats available for all classes from Nursery to Grade 8.",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022",
+      image: "/images/comp-lab.jpg",
       badgeColor: "bg-orange-500"
     },
     {
@@ -25,7 +25,7 @@ export default function News() {
       date: "Apr 14, 2025",
       title: "Science & Innovation Fair",
       desc: "Students showcase their creative science projects and innovations. Parents are welcome to attend this exciting event.",
-      image: "https://images.unsplash.com/photo-1530210124550-912dc1381cb8?q=80&w=2070",
+      image: "/images/gallery3.jpeg",
       badgeColor: "bg-cyan-500"
     }
   ];

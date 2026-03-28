@@ -7,6 +7,7 @@ import {
   FaSeedling, FaBook, FaUserGraduate
 } from "react-icons/fa";
 import InnerHero from "@/components/InnerHero";
+import Principal from "@/components/Principal";
 
 export default function AboutPage() {
   const curriculum = [
@@ -77,41 +78,7 @@ export default function AboutPage() {
       </section>
 
       {/* 3. MESSAGE FROM PRINCIPAL */}
-      <section className="py-24 bg-[#F8FAFC]">
-        <div className="container mx-auto px-6 lg:px-20">
-          <div className="flex flex-col lg:flex-row gap-16 items-center">
-            <div className="lg:w-2/5 relative">
-              <div className="relative z-10 rounded-[3rem] overflow-hidden shadow-2xl border-white border-[12px]">
-                <img
-                  src="/images/principal.jpg"
-                  className="w-full aspect-[4/5] object-cover"
-                  alt="Dr. Meera Patel"
-                />
-                <div className="absolute bottom-6 right-6 bg-yellow-500 p-4 rounded-2xl shadow-lg">
-                  <FaAward className="text-white text-2xl" />
-                </div>
-              </div>
-              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-indigo-900/10 rounded-full blur-3xl -z-10"></div>
-            </div>
-
-            <div className="lg:w-3/5">
-              <span className="text-yellow-600 font-black uppercase tracking-widest text-sm block mb-4">Message from Principal</span>
-              <h2 className="text-5xl font-serif font-black text-[#31008e] mb-8">Dr. Meera Patel</h2>
-              <div className="space-y-6 text-slate-600 text-lg leading-relaxed font-medium">
-                <p>Dear Parents and Students,</p>
-                <p>It gives me immense pleasure to welcome you to Sankalp Kids Care Academy, where we believe that every child is unique and possesses unlimited potential. Our commitment is to provide an educational experience that goes beyond textbooks and examinations.</p>
-                <p>At Sankalp, we have created a learning environment that encourages curiosity, creativity, and critical thinking. Our CBSE-affiliated curriculum is designed to provide a strong academic foundation while nurturing the social, emotional, and physical development of each child.</p>
-                <div className="pt-8">
-                  <img src="/images/signature.png" alt="Signature" className="h-16 mb-2 grayscale contrast-125" />
-                  <p className="font-serif font-black text-[#31008e] text-xl">Dr. Meera Patel</p>
-                  <p className="text-sm font-bold text-slate-400">Principal, Sankalp Kids Care Academy</p>
-                  <p className="text-xs font-medium text-slate-400">M.Ed., Ph.D. in Education</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Principal />
 
       {/* 4. COMPREHENSIVE LEARNING JOURNEY (TIMELINE) */}
       <section className="py-24 overflow-hidden">
