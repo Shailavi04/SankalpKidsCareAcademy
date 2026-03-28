@@ -16,7 +16,7 @@ export default function ContactPage() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
 
   const faqs = [
-    { q: "What is the admission process?", a: "Our process is simple: Online Enquiry > School Visit > Document Submission > Interaction > Admission Confirmation." },
+    { q: "What is the admission process?", a: "Our process is simple: Online Enquiry > School Visit > Document Submission > Interaction  > Admission Confirmation." },
     { q: "What are the school timings?", a: "Nursery & KG: 8:30 AM - 12:30 PM | Grade 1-8: 8:00 AM - 2:30 PM." },
     { q: "Do you provide transportation facility?", a: "Yes, we have a fleet of GPS-enabled buses covering a 15km radius around the campus." },
     { q: "What is the student-teacher ratio?", a: "We maintain a strict 20:1 ratio to ensure personalized attention for every child." },
