@@ -97,13 +97,13 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6 border-b border-white/10 pb-2">Contact</h4>
             <div className="space-y-4 text-sm font-medium">
               <p className="flex items-center gap-4 group">
-                <span className="bg-white/10 p-2 rounded-lg group-hover:bg-yellow-400 group-hover:text-indigo-950 transition">📞</span> +91-9876543210
+                <span className="bg-white/10 p-2 rounded-lg group-hover:bg-yellow-400 group-hover:text-indigo-950 transition">📞</span> +91-63060 27283
               </p>
               <p className="flex items-center gap-4 group cursor-pointer">
                 <span className="bg-white/10 p-2 rounded-lg group-hover:bg-yellow-400 group-hover:text-indigo-950 transition">✉️</span> info@sankalpkids.com
               </p>
               <p className="flex items-start gap-4 group">
-                <span className="bg-white/10 p-2 rounded-lg group-hover:bg-yellow-400 group-hover:text-indigo-950 transition">📍</span> 123 Education Street, Lucknow
+                <span className="bg-white/10 p-2 rounded-lg group-hover:bg-yellow-400 group-hover:text-indigo-950 transition">📍</span> Station Road Sahatwar, Ballia  
               </p>
             </div>
           </div>

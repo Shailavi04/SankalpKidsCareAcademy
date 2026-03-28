@@ -86,7 +86,8 @@ export default function EnquiryPage() {
               <div className="w-14 h-14 bg-indigo-50 rounded-2xl flex items-center justify-center shrink-0 text-2xl group-hover:bg-[#31008e] group-hover:rotate-12 transition-all">📞</div>
               <div>
                 <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Phone</h4>
-                <a href="tel:+919876543210" className="text-lg font-bold text-slate-800 hover:text-[#31008e] transition-colors block">+91-9876543210</a>
+                <a href="tel:+919876543210" className="text-lg font-bold text-slate-800 hover:text-[#31008e] transition-colors block">+91-63060 27283
+</a>
               </div>
             </div>
 
@@ -102,7 +103,7 @@ export default function EnquiryPage() {
               <div className="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 text-2xl group-hover:bg-[#31008e] group-hover:rotate-12 transition-all">📍</div>
               <div>
                 <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">Address</h4>
-                <p className="text-lg font-bold text-slate-800 leading-snug">123 Education Street<br/>City, State - 000000</p>
+                <p className="text-lg font-bold text-slate-800 leading-snug">Station Road Sahatwar<br/>Balia, Uttar Pradesh</p>
               </div>
             </div>
           </div>

@@ -56,8 +56,8 @@ export default function ContactPage() {
           <h3 className="text-2xl font-serif font-black text-[#31008e] mb-6 group-hover:text-white">Visit Us</h3>
           <p className="text-slate-600 group-hover:text-slate-200 text-sm leading-relaxed mb-6">
             Sankalp Kids Care Academy<br />
-            123 Education Street, Knowledge Hub<br />
-            Lucknow, UP - 226001, India
+            Station Road Sahatwar<br />
+            Balia, UP - 277211, India
           </p>
           <Link href="#" className="text-[#31008e] font-black text-xs uppercase tracking-[0.2em] border-b-2 border-[#31008e] group-hover:text-white group-hover:border-white pb-1">Get Directions →</Link>
         </div>
@@ -69,8 +69,8 @@ export default function ContactPage() {
           </div>
           <h3 className="text-2xl font-serif font-black text-[#31008e] mb-6 group-hover:text-white">Call Us</h3>
           <div className="space-y-4 mb-8">
-            <p className="text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-white/60">Admission: <span className="text-slate-800 group-hover:text-white block text-lg">+91-9876543210</span></p>
-            <p className="text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-white/60">Office: <span className="text-slate-800 group-hover:text-white block text-lg">+91-9876543211</span></p>
+            <p className="text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-white/60">Admission: <span className="text-slate-800 group-hover:text-white block text-lg">+91-63060 27283</span></p>
+            <p className="text-xs font-black uppercase tracking-widest text-slate-400 group-hover:text-white/60">Office: <span className="text-slate-800 group-hover:text-white block text-lg">+91-63060 27283</span></p>
           </div>
           <a href="https://wa.me/919876543210" className="flex items-center gap-2 text-green-600 font-black text-[10px] uppercase tracking-[0.2em] group-hover:text-white">
             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse group-hover:bg-white"></span> WhatsApp Us
