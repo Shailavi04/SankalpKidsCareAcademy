@@ -5,7 +5,7 @@ export default function Principal() {
     <section className="py-24 container mx-auto px-6 lg:px-20">
       <div className="bg-indigo-900 rounded-[40px] overflow-hidden flex flex-col md:flex-row shadow-2xl">
         <div className="md:w-1/3 h-[400px]">
-          <img src="/principal.jpg" className="w-full h-full object-cover" alt="Principal" />
+          <img src="/images/principal.jpg" className="w-full h-full object-cover" alt="Principal" />
         </div>
         <div className="md:w-2/3 p-12 lg:p-20 text-white flex flex-col justify-center">
           <span className="text-yellow-400 font-bold uppercase text-xs mb-4">Message from Principal</span>

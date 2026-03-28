@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 import {
   MapPinIcon,
   PhoneIcon,
@@ -124,21 +125,40 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Social Box */}
-          <div className="p-12 rounded-[3rem] border border-slate-100 bg-white shadow-xl shadow-slate-100/50">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center"><ShareIcon className="w-6 h-6 text-orange-500" /></div>
-              <h3 className="text-3xl font-serif font-black text-[#31008e]">Follow Us</h3>
-            </div>
-            <p className="text-slate-500 mb-10 leading-relaxed font-light">Stay connected with our community for daily updates and highlights.</p>
-            <div className="flex gap-4">
-              {['facebook', 'instagram', 'youtube', 'x'].map((social) => (
-                <button key={social} className="w-14 h-14 rounded-full bg-slate-900 flex items-center justify-center text-white hover:bg-[#31008e] hover:scale-110 transition-all shadow-lg">
-                  <span className="capitalize text-[10px] font-black">{social[0]}</span>
-                </button>
-              ))}
-            </div>
-          </div>
+{/* Social Box */}
+<div className="p-12 rounded-[3rem] border border-slate-100 bg-white shadow-xl shadow-slate-100/50">
+  <div className="flex items-center gap-4 mb-8">
+    <div className="w-12 h-12 bg-orange-50 rounded-2xl flex items-center justify-center">
+      {/* Agar aapke paas ShareIcon hai toh use rehne dein, warna icon yahan badal sakte hain */}
+      <span className="text-2xl">📢</span> 
+    </div>
+    <h3 className="text-3xl font-bold text-[#31008e] tracking-tight">Follow Us</h3>
+  </div>
+  
+  <p className="text-slate-500 mb-10 leading-relaxed font-medium opacity-80">
+    Stay connected with our community for daily updates, event highlights, and school news.
+  </p>
+
+  <div className="flex flex-wrap gap-4">
+    {[
+      { name: 'facebook', icon: <FaFacebookF />, color: 'hover:bg-[#1877F2]' },
+      { name: 'instagram', icon: <FaInstagram />, color: 'hover:bg-[#E4405F]' },
+      { name: 'youtube', icon: <FaYoutube />, color: 'hover:bg-[#FF0000]' },
+      { name: 'twitter', icon: <FaTwitter />, color: 'hover:bg-[#1DA1F2]' }
+    ].map((social) => (
+      <a 
+        key={social.name} 
+        href="#" // Yahan apna link add karein
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-600 ${social.color} hover:text-white hover:scale-110 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-xl`}
+        title={social.name}
+      >
+        <span className="text-xl">{social.icon}</span>
+      </a>
+    ))}
+  </div>
+</div>
 
         </div>
       </section>

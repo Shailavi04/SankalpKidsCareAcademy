@@ -117,7 +117,7 @@ export default function AcademicsPage() {
                         { title: "Sports & Yoga", desc: "Cricket, football, basketball, athletics, and yoga sessions", img: "/images/sports-activity.jpg", icon: <FaRunning /> },
                         { title: "Robotics & Coding", desc: "STEM education, programming basics, and innovation labs", img: "/images/robotics-activity.jpg", icon: <FaRobot /> },
                         { title: "Public Speaking", desc: "Debates, elocution, presentations, and communication skills", img: "/images/public-speaking.jpg", icon: <FaMicrophone /> },
-                        { title: "Environmental Club", desc: "Gardening, eco-awareness, sustainability projects", img: "/nature-activity.jpg", icon: <FaLeaf /> },
+                        { title: "Environmental Club", desc: "Gardening, eco-awareness, sustainability projects", img: "/images/nature-activity.jpg", icon: <FaLeaf /> },
                     ].map((item, i) => (
                         <div key={i} className="bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_40px_-15px_rgba(0,0,0,0.1)] hover:shadow-2xl transition-all duration-500 border border-slate-100 group">
                             {/* Image Container */}
