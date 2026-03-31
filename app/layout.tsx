@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Sankalp Kids Care Academy",
   description: "Nurturing young minds for a better future",
   icons: {
-    icon: "/images/logos.png",
+    icon: "/images/logo.png",
   },
 };
 
