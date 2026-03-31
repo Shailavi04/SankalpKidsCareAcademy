@@ -1,14 +1,24 @@
-import Navbar from "../components/Navbar"; 
+import type { Metadata } from "next"; // Type import karein
+import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./globals.css";
+
+// Ye section add karein
+export const metadata: Metadata = {
+  title: "Sankalp Kids Care Academy",
+  description: "Nurturing young minds for a better future",
+  icons: {
+    icon: "/images/logo.png",
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />  {/* Visible on every page */}
-        <main>{children}</main> {/* This is where Home, About, etc. swap out */}
-        <Footer />  {/* Visible on every page */}
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
