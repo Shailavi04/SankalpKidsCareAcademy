@@ -36,15 +36,30 @@ export default function ContactPage() {
 
 
       {/* 🗺️ MAP SECTION */}
-      <section className="relative h-[500px] -mt-20 w-full overflow-hidden border-y border-slate-100">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.565731320341!2d77.22727287632644!3d28.61393908488053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2dab96990a1%3A0x1bbad028c2c10f8!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1711550000000!5m2!1sen!2sin"
-          className="w-full h-full grayscale-[0.2] contrast-[1.1]"
-          loading="lazy"
-        ></iframe>
-   
-      </section>
-
+{/* 🗺️ MAP SECTION - 100% Working Official Business Link */}
+<section className="relative h-[500px] -mt-20 w-full overflow-hidden border-y border-slate-100 shadow-inner bg-slate-50">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.270923053896!2d84.29314417540562!3d25.8277259773489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399289956f68743b%3A0x7fa906f39d4d0103!2sSankalp%20kids%20care%20academy!5e0!3m2!1sen!2sin!4v1711871500000!5m2!1sen!2sin"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen={true}
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    className="grayscale-[0.1] contrast-[1.1]"
+    title="Sankalp Kids Care Academy Official Location"
+  ></iframe>
+  
+  {/* Floating Address Overlay */}
+  <div className="absolute bottom-10 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md px-8 py-4 rounded-full shadow-2xl border border-white hidden md:flex items-center gap-3">
+    <div className="w-8 h-8 bg-[#31008e] rounded-full flex items-center justify-center">
+      <MapPinIcon className="w-4 h-4 text-white" />
+    </div>
+    <span className="text-sm font-bold text-[#31008e] tracking-tight">
+      R7GV+CM5, Sahatwar Station Rd, Baghaw, UP 277211
+    </span>
+  </div>
+</section>
       {/* 📍 CONTACT CARDS */}
       <section className="py-24 container mx-auto px-6 lg:px-20 grid lg:grid-cols-3 gap-8">
 
